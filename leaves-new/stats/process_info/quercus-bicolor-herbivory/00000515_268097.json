@@ -1,0 +1,20 @@
+{
+    "img_id": "quercus-bicolor-herbivory/00000515_268097",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 381,
+                "r_stop": 1392,
+                "c_start": 228,
+                "c_stop": 1242
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 171,
+                "object size": 4000
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+images:
+  root: '/usr/xtmp/xs75/leaves/datasets_updated/leaves'
+  dirs: [quercus-bicolor-herbivory] #, onoclea-sensibilis-herbivory,  quercus-lobata 
+  subdirs:
+    image: 'images_clean/*.j*g'
+    label: 'releases/3.0-qb-corrected-test-val/other_formats/semantic_mask/masks_clean/*.png' #3.0-qb-corrected-test-val
+    leaf_mask: 'images_clean_leaf_mask/*.png'
+  subdir_labelmap: 'releases/3.0-qb-corrected-test-val/other_formats/semantic_mask/class_mapping.csv' #3.0-qb-corrected-test-val
+  labels_file: '../../stats/label_file_common_binary.json'
+
+tiles:
+  root: '/usr/xtmp/xs75/leaves/datasets_updated/tiles/orig_tiles_3.0_skel'
+  width: 512
+  height: 512
+  margin: 4
+  overwrite: False
+  start_point: [0,0]
+
+
+

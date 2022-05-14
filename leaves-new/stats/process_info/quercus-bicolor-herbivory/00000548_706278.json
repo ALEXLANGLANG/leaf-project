@@ -1,0 +1,92 @@
+{
+    "img_id": "quercus-bicolor-herbivory/00000548_706278",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 136,
+                "r_stop": 4364,
+                "c_start": 614,
+                "c_stop": 3493
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 155,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 861,
+                "c_start": 2807,
+                "c_stop": 2879
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2324,
+                "r_stop": 4228,
+                "c_start": 2842,
+                "c_stop": 2879
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2485,
+                "r_stop": 3024,
+                "c_start": 63,
+                "c_stop": 525
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2968,
+                "r_stop": 4067,
+                "c_start": 0,
+                "c_stop": 483
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3822,
+                "r_stop": 4228,
+                "c_start": 0,
+                "c_stop": 322
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2282,
+                "r_stop": 2667,
+                "c_start": 371,
+                "c_stop": 679
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2457,
+                "r_stop": 2604,
+                "c_start": 581,
+                "c_stop": 770
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 833,
+                "r_stop": 917,
+                "c_start": 2849,
+                "c_stop": 2879
+            }
+        }
+    }
+}

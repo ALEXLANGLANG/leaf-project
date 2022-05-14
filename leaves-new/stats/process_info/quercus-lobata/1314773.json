@@ -1,0 +1,29 @@
+{
+    "img_id": "quercus-lobata/1314773",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 162,
+                "r_stop": 3940,
+                "c_start": 303,
+                "c_stop": 3829
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 188,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1519,
+                "r_stop": 2051,
+                "c_start": 1200,
+                "c_stop": 1838
+            }
+        }
+    }
+}

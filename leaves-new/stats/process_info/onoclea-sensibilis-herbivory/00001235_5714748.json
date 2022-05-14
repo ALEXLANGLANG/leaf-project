@@ -1,0 +1,93 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/00001235_5714748",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 0,
+                "r_stop": 2878,
+                "c_start": 229,
+                "c_stop": 3082
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 144,
+                "object size": 3000,
+                "outline_width": 30
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1152,
+                "c_start": 2723,
+                "c_stop": 2853
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1115,
+                "r_stop": 2878,
+                "c_start": 2761,
+                "c_stop": 2853
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 584,
+                "r_stop": 2593,
+                "c_start": 0,
+                "c_stop": 200
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2209,
+                "r_stop": 2878,
+                "c_start": 0,
+                "c_stop": 718
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2635,
+                "r_stop": 2878,
+                "c_start": 0,
+                "c_stop": 1115
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2439,
+                "r_stop": 2761,
+                "c_start": 16,
+                "c_stop": 760
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 918,
+                "r_stop": 1791,
+                "c_start": 0,
+                "c_stop": 371
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 885,
+                "r_stop": 1403,
+                "c_start": 0,
+                "c_stop": 438
+            }
+        }
+    }
+}

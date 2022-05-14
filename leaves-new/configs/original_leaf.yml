@@ -1,0 +1,8 @@
+images:
+  root: '/usr/xtmp/xs75/leaves/datasets/leaves'
+  dirs: [quercus-bicolor-herbivory, onoclea-sensibilis-herbivory,  quercus-lobata]
+  subdirs:
+    image: 'images_clean/*.jpeg'
+    label: 'releases/1.0/other_formats/semantic-mask/masks_clean/*.png'
+    leaf_mask: 'images_clean_leaf_mask/*.png'
+  subdir_labelmap: 'releases/1.0/other_formats/semantic-mask/class_mapping.csv'

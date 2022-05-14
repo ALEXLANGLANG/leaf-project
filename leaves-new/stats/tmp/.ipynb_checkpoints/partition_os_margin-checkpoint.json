@@ -1,0 +1,1407 @@
+{
+    "training": {
+        "images": {
+            "onoclea-sensibilis-herbivory/00001236_5714749": {
+                "image": "onoclea-sensibilis-herbivory/images/00001236_5714749.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001236_5714749.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001236_5714749.png",
+                "id": "onoclea-sensibilis-herbivory/00001236_5714749",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001147_5528531": {
+                "image": "onoclea-sensibilis-herbivory/images/00001147_5528531.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001147_5528531.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001147_5528531.png",
+                "id": "onoclea-sensibilis-herbivory/00001147_5528531",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001144_5528528": {
+                "image": "onoclea-sensibilis-herbivory/images/00001144_5528528.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001144_5528528.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001144_5528528.png",
+                "id": "onoclea-sensibilis-herbivory/00001144_5528528",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001244_5741660": {
+                "image": "onoclea-sensibilis-herbivory/images/00001244_5741660.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001244_5741660.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001244_5741660.png",
+                "id": "onoclea-sensibilis-herbivory/00001244_5741660",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001187_5679027": {
+                "image": "onoclea-sensibilis-herbivory/images/00001187_5679027.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001187_5679027.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001187_5679027.png",
+                "id": "onoclea-sensibilis-herbivory/00001187_5679027",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001126_5457938": {
+                "image": "onoclea-sensibilis-herbivory/images/00001126_5457938.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001126_5457938.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001126_5457938.png",
+                "id": "onoclea-sensibilis-herbivory/00001126_5457938",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001061_4603972": {
+                "image": "onoclea-sensibilis-herbivory/images/00001061_4603972.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001061_4603972.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001061_4603972.png",
+                "id": "onoclea-sensibilis-herbivory/00001061_4603972",
+                "info": {
+                    "height": 4209,
+                    "width": 3558
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001079_5457880": {
+                "image": "onoclea-sensibilis-herbivory/images/00001079_5457880.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001079_5457880.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001079_5457880.png",
+                "id": "onoclea-sensibilis-herbivory/00001079_5457880",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001145_5528529": {
+                "image": "onoclea-sensibilis-herbivory/images/00001145_5528529.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001145_5528529.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001145_5528529.png",
+                "id": "onoclea-sensibilis-herbivory/00001145_5528529",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001140_5528524": {
+                "image": "onoclea-sensibilis-herbivory/images/00001140_5528524.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001140_5528524.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001140_5528524.png",
+                "id": "onoclea-sensibilis-herbivory/00001140_5528524",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001107_5457919": {
+                "image": "onoclea-sensibilis-herbivory/images/00001107_5457919.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001107_5457919.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001107_5457919.png",
+                "id": "onoclea-sensibilis-herbivory/00001107_5457919",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001209_5703135": {
+                "image": "onoclea-sensibilis-herbivory/images/00001209_5703135.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001209_5703135.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001209_5703135.png",
+                "id": "onoclea-sensibilis-herbivory/00001209_5703135",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001122_5457932": {
+                "image": "onoclea-sensibilis-herbivory/images/00001122_5457932.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001122_5457932.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001122_5457932.png",
+                "id": "onoclea-sensibilis-herbivory/00001122_5457932",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001204_5694521": {
+                "image": "onoclea-sensibilis-herbivory/images/00001204_5694521.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001204_5694521.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001204_5694521.png",
+                "id": "onoclea-sensibilis-herbivory/00001204_5694521",
+                "info": {
+                    "height": 4242,
+                    "width": 3590
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001100_5457908": {
+                "image": "onoclea-sensibilis-herbivory/images/00001100_5457908.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001100_5457908.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001100_5457908.png",
+                "id": "onoclea-sensibilis-herbivory/00001100_5457908",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001123_5457934": {
+                "image": "onoclea-sensibilis-herbivory/images/00001123_5457934.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001123_5457934.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001123_5457934.png",
+                "id": "onoclea-sensibilis-herbivory/00001123_5457934",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001054_3872874": {
+                "image": "onoclea-sensibilis-herbivory/images/00001054_3872874.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001054_3872874.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001054_3872874.png",
+                "id": "onoclea-sensibilis-herbivory/00001054_3872874",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001109_5457921": {
+                "image": "onoclea-sensibilis-herbivory/images/00001109_5457921.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001109_5457921.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001109_5457921.png",
+                "id": "onoclea-sensibilis-herbivory/00001109_5457921",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001172_5679010": {
+                "image": "onoclea-sensibilis-herbivory/images/00001172_5679010.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001172_5679010.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001172_5679010.png",
+                "id": "onoclea-sensibilis-herbivory/00001172_5679010",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001087_5457891": {
+                "image": "onoclea-sensibilis-herbivory/images/00001087_5457891.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001087_5457891.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001087_5457891.png",
+                "id": "onoclea-sensibilis-herbivory/00001087_5457891",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001129_5457941": {
+                "image": "onoclea-sensibilis-herbivory/images/00001129_5457941.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001129_5457941.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001129_5457941.png",
+                "id": "onoclea-sensibilis-herbivory/00001129_5457941",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001240_5727279": {
+                "image": "onoclea-sensibilis-herbivory/images/00001240_5727279.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001240_5727279.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001240_5727279.png",
+                "id": "onoclea-sensibilis-herbivory/00001240_5727279",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001133_5457946": {
+                "image": "onoclea-sensibilis-herbivory/images/00001133_5457946.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001133_5457946.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001133_5457946.png",
+                "id": "onoclea-sensibilis-herbivory/00001133_5457946",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001196_5679036": {
+                "image": "onoclea-sensibilis-herbivory/images/00001196_5679036.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001196_5679036.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001196_5679036.png",
+                "id": "onoclea-sensibilis-herbivory/00001196_5679036",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001211_5703971": {
+                "image": "onoclea-sensibilis-herbivory/images/00001211_5703971.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001211_5703971.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001211_5703971.png",
+                "id": "onoclea-sensibilis-herbivory/00001211_5703971",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001197_5679037": {
+                "image": "onoclea-sensibilis-herbivory/images/00001197_5679037.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001197_5679037.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001197_5679037.png",
+                "id": "onoclea-sensibilis-herbivory/00001197_5679037",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001076_5457875": {
+                "image": "onoclea-sensibilis-herbivory/images/00001076_5457875.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001076_5457875.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001076_5457875.png",
+                "id": "onoclea-sensibilis-herbivory/00001076_5457875",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001153_5528537": {
+                "image": "onoclea-sensibilis-herbivory/images/00001153_5528537.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001153_5528537.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001153_5528537.png",
+                "id": "onoclea-sensibilis-herbivory/00001153_5528537",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001232_5714746": {
+                "image": "onoclea-sensibilis-herbivory/images/00001232_5714746.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001232_5714746.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001232_5714746.png",
+                "id": "onoclea-sensibilis-herbivory/00001232_5714746",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001057_4178824": {
+                "image": "onoclea-sensibilis-herbivory/images/00001057_4178824.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001057_4178824.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001057_4178824.png",
+                "id": "onoclea-sensibilis-herbivory/00001057_4178824",
+                "info": {
+                    "height": 5616,
+                    "width": 3744
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001042_3872782": {
+                "image": "onoclea-sensibilis-herbivory/images/00001042_3872782.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001042_3872782.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001042_3872782.png",
+                "id": "onoclea-sensibilis-herbivory/00001042_3872782",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001086_5457890": {
+                "image": "onoclea-sensibilis-herbivory/images/00001086_5457890.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001086_5457890.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001086_5457890.png",
+                "id": "onoclea-sensibilis-herbivory/00001086_5457890",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001120_5457930": {
+                "image": "onoclea-sensibilis-herbivory/images/00001120_5457930.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001120_5457930.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001120_5457930.png",
+                "id": "onoclea-sensibilis-herbivory/00001120_5457930",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001060_4603971": {
+                "image": "onoclea-sensibilis-herbivory/images/00001060_4603971.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001060_4603971.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001060_4603971.png",
+                "id": "onoclea-sensibilis-herbivory/00001060_4603971",
+                "info": {
+                    "height": 4209,
+                    "width": 3558
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001247_5753565": {
+                "image": "onoclea-sensibilis-herbivory/images/00001247_5753565.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001247_5753565.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001247_5753565.png",
+                "id": "onoclea-sensibilis-herbivory/00001247_5753565",
+                "info": {
+                    "height": 4283,
+                    "width": 3643
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001066_5457847": {
+                "image": "onoclea-sensibilis-herbivory/images/00001066_5457847.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001066_5457847.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001066_5457847.png",
+                "id": "onoclea-sensibilis-herbivory/00001066_5457847",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001077_5457878": {
+                "image": "onoclea-sensibilis-herbivory/images/00001077_5457878.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001077_5457878.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001077_5457878.png",
+                "id": "onoclea-sensibilis-herbivory/00001077_5457878",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001135_5485658": {
+                "image": "onoclea-sensibilis-herbivory/images/00001135_5485658.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001135_5485658.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001135_5485658.png",
+                "id": "onoclea-sensibilis-herbivory/00001135_5485658",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001199_5679039": {
+                "image": "onoclea-sensibilis-herbivory/images/00001199_5679039.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001199_5679039.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001199_5679039.png",
+                "id": "onoclea-sensibilis-herbivory/00001199_5679039",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001089_5457894": {
+                "image": "onoclea-sensibilis-herbivory/images/00001089_5457894.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001089_5457894.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001089_5457894.png",
+                "id": "onoclea-sensibilis-herbivory/00001089_5457894",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001111_5457925": {
+                "image": "onoclea-sensibilis-herbivory/images/00001111_5457925.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001111_5457925.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001111_5457925.png",
+                "id": "onoclea-sensibilis-herbivory/00001111_5457925",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001134_5457948": {
+                "image": "onoclea-sensibilis-herbivory/images/00001134_5457948.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001134_5457948.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001134_5457948.png",
+                "id": "onoclea-sensibilis-herbivory/00001134_5457948",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001091_5457896": {
+                "image": "onoclea-sensibilis-herbivory/images/00001091_5457896.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001091_5457896.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001091_5457896.png",
+                "id": "onoclea-sensibilis-herbivory/00001091_5457896",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001090_5457895": {
+                "image": "onoclea-sensibilis-herbivory/images/00001090_5457895.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001090_5457895.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001090_5457895.png",
+                "id": "onoclea-sensibilis-herbivory/00001090_5457895",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001151_5528535": {
+                "image": "onoclea-sensibilis-herbivory/images/00001151_5528535.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001151_5528535.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001151_5528535.png",
+                "id": "onoclea-sensibilis-herbivory/00001151_5528535",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001130_5457942": {
+                "image": "onoclea-sensibilis-herbivory/images/00001130_5457942.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001130_5457942.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001130_5457942.png",
+                "id": "onoclea-sensibilis-herbivory/00001130_5457942",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001098_5457906": {
+                "image": "onoclea-sensibilis-herbivory/images/00001098_5457906.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001098_5457906.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001098_5457906.png",
+                "id": "onoclea-sensibilis-herbivory/00001098_5457906",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001056_4163117": {
+                "image": "onoclea-sensibilis-herbivory/images/00001056_4163117.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001056_4163117.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001056_4163117.png",
+                "id": "onoclea-sensibilis-herbivory/00001056_4163117",
+                "info": {
+                    "height": 3835,
+                    "width": 3270
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001085_5457888": {
+                "image": "onoclea-sensibilis-herbivory/images/00001085_5457888.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001085_5457888.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001085_5457888.png",
+                "id": "onoclea-sensibilis-herbivory/00001085_5457888",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001235_5714748": {
+                "image": "onoclea-sensibilis-herbivory/images/00001235_5714748.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001235_5714748.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001235_5714748.png",
+                "id": "onoclea-sensibilis-herbivory/00001235_5714748",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001121_5457931": {
+                "image": "onoclea-sensibilis-herbivory/images/00001121_5457931.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001121_5457931.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001121_5457931.png",
+                "id": "onoclea-sensibilis-herbivory/00001121_5457931",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001075_5457874": {
+                "image": "onoclea-sensibilis-herbivory/images/00001075_5457874.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001075_5457874.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001075_5457874.png",
+                "id": "onoclea-sensibilis-herbivory/00001075_5457874",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001155_5528539": {
+                "image": "onoclea-sensibilis-herbivory/images/00001155_5528539.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001155_5528539.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001155_5528539.png",
+                "id": "onoclea-sensibilis-herbivory/00001155_5528539",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001203_5694520": {
+                "image": "onoclea-sensibilis-herbivory/images/00001203_5694520.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001203_5694520.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001203_5694520.png",
+                "id": "onoclea-sensibilis-herbivory/00001203_5694520",
+                "info": {
+                    "height": 4242,
+                    "width": 3590
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001108_5457920": {
+                "image": "onoclea-sensibilis-herbivory/images/00001108_5457920.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001108_5457920.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001108_5457920.png",
+                "id": "onoclea-sensibilis-herbivory/00001108_5457920",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001206_5694531": {
+                "image": "onoclea-sensibilis-herbivory/images/00001206_5694531.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001206_5694531.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001206_5694531.png",
+                "id": "onoclea-sensibilis-herbivory/00001206_5694531",
+                "info": {
+                    "height": 4242,
+                    "width": 3590
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001154_5528538": {
+                "image": "onoclea-sensibilis-herbivory/images/00001154_5528538.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001154_5528538.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001154_5528538.png",
+                "id": "onoclea-sensibilis-herbivory/00001154_5528538",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001248_5753617": {
+                "image": "onoclea-sensibilis-herbivory/images/00001248_5753617.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001248_5753617.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001248_5753617.png",
+                "id": "onoclea-sensibilis-herbivory/00001248_5753617",
+                "info": {
+                    "height": 4283,
+                    "width": 3643
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001131_5457943": {
+                "image": "onoclea-sensibilis-herbivory/images/00001131_5457943.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001131_5457943.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001131_5457943.png",
+                "id": "onoclea-sensibilis-herbivory/00001131_5457943",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001018_175037": {
+                "image": "onoclea-sensibilis-herbivory/images/00001018_175037.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001018_175037.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001018_175037.png",
+                "id": "onoclea-sensibilis-herbivory/00001018_175037",
+                "info": {
+                    "height": 5616,
+                    "width": 3744
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001205_5694530": {
+                "image": "onoclea-sensibilis-herbivory/images/00001205_5694530.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001205_5694530.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001205_5694530.png",
+                "id": "onoclea-sensibilis-herbivory/00001205_5694530",
+                "info": {
+                    "height": 4242,
+                    "width": 3590
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001068_5457851": {
+                "image": "onoclea-sensibilis-herbivory/images/00001068_5457851.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001068_5457851.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001068_5457851.png",
+                "id": "onoclea-sensibilis-herbivory/00001068_5457851",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001125_5457937": {
+                "image": "onoclea-sensibilis-herbivory/images/00001125_5457937.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001125_5457937.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001125_5457937.png",
+                "id": "onoclea-sensibilis-herbivory/00001125_5457937",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001045_3872802": {
+                "image": "onoclea-sensibilis-herbivory/images/00001045_3872802.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001045_3872802.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001045_3872802.png",
+                "id": "onoclea-sensibilis-herbivory/00001045_3872802",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001064_5457845": {
+                "image": "onoclea-sensibilis-herbivory/images/00001064_5457845.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001064_5457845.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001064_5457845.png",
+                "id": "onoclea-sensibilis-herbivory/00001064_5457845",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001101_5457912": {
+                "image": "onoclea-sensibilis-herbivory/images/00001101_5457912.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001101_5457912.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001101_5457912.png",
+                "id": "onoclea-sensibilis-herbivory/00001101_5457912",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001047_3872812": {
+                "image": "onoclea-sensibilis-herbivory/images/00001047_3872812.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001047_3872812.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001047_3872812.png",
+                "id": "onoclea-sensibilis-herbivory/00001047_3872812",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001050_3872825": {
+                "image": "onoclea-sensibilis-herbivory/images/00001050_3872825.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001050_3872825.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001050_3872825.png",
+                "id": "onoclea-sensibilis-herbivory/00001050_3872825",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001044_3872801": {
+                "image": "onoclea-sensibilis-herbivory/images/00001044_3872801.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001044_3872801.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001044_3872801.png",
+                "id": "onoclea-sensibilis-herbivory/00001044_3872801",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001063_5457844": {
+                "image": "onoclea-sensibilis-herbivory/images/00001063_5457844.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001063_5457844.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001063_5457844.png",
+                "id": "onoclea-sensibilis-herbivory/00001063_5457844",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001128_5457940": {
+                "image": "onoclea-sensibilis-herbivory/images/00001128_5457940.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001128_5457940.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001128_5457940.png",
+                "id": "onoclea-sensibilis-herbivory/00001128_5457940",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001194_5679034": {
+                "image": "onoclea-sensibilis-herbivory/images/00001194_5679034.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001194_5679034.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001194_5679034.png",
+                "id": "onoclea-sensibilis-herbivory/00001194_5679034",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001242_5727281": {
+                "image": "onoclea-sensibilis-herbivory/images/00001242_5727281.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001242_5727281.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001242_5727281.png",
+                "id": "onoclea-sensibilis-herbivory/00001242_5727281",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001070_5457856": {
+                "image": "onoclea-sensibilis-herbivory/images/00001070_5457856.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001070_5457856.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001070_5457856.png",
+                "id": "onoclea-sensibilis-herbivory/00001070_5457856",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001065_5457846": {
+                "image": "onoclea-sensibilis-herbivory/images/00001065_5457846.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001065_5457846.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001065_5457846.png",
+                "id": "onoclea-sensibilis-herbivory/00001065_5457846",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001127_5457939": {
+                "image": "onoclea-sensibilis-herbivory/images/00001127_5457939.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001127_5457939.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001127_5457939.png",
+                "id": "onoclea-sensibilis-herbivory/00001127_5457939",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            }
+        },
+        "tiles": {}
+    },
+    "validation": {
+        "images": {
+            "onoclea-sensibilis-herbivory/00001074_5457873": {
+                "image": "onoclea-sensibilis-herbivory/images/00001074_5457873.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001074_5457873.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001074_5457873.png",
+                "id": "onoclea-sensibilis-herbivory/00001074_5457873",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001195_5679035": {
+                "image": "onoclea-sensibilis-herbivory/images/00001195_5679035.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001195_5679035.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001195_5679035.png",
+                "id": "onoclea-sensibilis-herbivory/00001195_5679035",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001078_5457879": {
+                "image": "onoclea-sensibilis-herbivory/images/00001078_5457879.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001078_5457879.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001078_5457879.png",
+                "id": "onoclea-sensibilis-herbivory/00001078_5457879",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001083_5457885": {
+                "image": "onoclea-sensibilis-herbivory/images/00001083_5457885.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001083_5457885.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001083_5457885.png",
+                "id": "onoclea-sensibilis-herbivory/00001083_5457885",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001234_5714747": {
+                "image": "onoclea-sensibilis-herbivory/images/00001234_5714747.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001234_5714747.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001234_5714747.png",
+                "id": "onoclea-sensibilis-herbivory/00001234_5714747",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001092_5457897": {
+                "image": "onoclea-sensibilis-herbivory/images/00001092_5457897.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001092_5457897.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001092_5457897.png",
+                "id": "onoclea-sensibilis-herbivory/00001092_5457897",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001237_5714750": {
+                "image": "onoclea-sensibilis-herbivory/images/00001237_5714750.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001237_5714750.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001237_5714750.png",
+                "id": "onoclea-sensibilis-herbivory/00001237_5714750",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001112_5457926": {
+                "image": "onoclea-sensibilis-herbivory/images/00001112_5457926.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001112_5457926.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001112_5457926.png",
+                "id": "onoclea-sensibilis-herbivory/00001112_5457926",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001041_3872780": {
+                "image": "onoclea-sensibilis-herbivory/images/00001041_3872780.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001041_3872780.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001041_3872780.png",
+                "id": "onoclea-sensibilis-herbivory/00001041_3872780",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001245_5741661": {
+                "image": "onoclea-sensibilis-herbivory/images/00001245_5741661.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001245_5741661.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001245_5741661.png",
+                "id": "onoclea-sensibilis-herbivory/00001245_5741661",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001062_4603973": {
+                "image": "onoclea-sensibilis-herbivory/images/00001062_4603973.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001062_4603973.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001062_4603973.png",
+                "id": "onoclea-sensibilis-herbivory/00001062_4603973",
+                "info": {
+                    "height": 4209,
+                    "width": 3558
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001124_5457936": {
+                "image": "onoclea-sensibilis-herbivory/images/00001124_5457936.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001124_5457936.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001124_5457936.png",
+                "id": "onoclea-sensibilis-herbivory/00001124_5457936",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001106_5457917": {
+                "image": "onoclea-sensibilis-herbivory/images/00001106_5457917.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001106_5457917.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001106_5457917.png",
+                "id": "onoclea-sensibilis-herbivory/00001106_5457917",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001114_5457928": {
+                "image": "onoclea-sensibilis-herbivory/images/00001114_5457928.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001114_5457928.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001114_5457928.png",
+                "id": "onoclea-sensibilis-herbivory/00001114_5457928",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001180_5679019": {
+                "image": "onoclea-sensibilis-herbivory/images/00001180_5679019.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001180_5679019.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001180_5679019.png",
+                "id": "onoclea-sensibilis-herbivory/00001180_5679019",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001081_5457882": {
+                "image": "onoclea-sensibilis-herbivory/images/00001081_5457882.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001081_5457882.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001081_5457882.png",
+                "id": "onoclea-sensibilis-herbivory/00001081_5457882",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001094_5457901": {
+                "image": "onoclea-sensibilis-herbivory/images/00001094_5457901.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001094_5457901.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001094_5457901.png",
+                "id": "onoclea-sensibilis-herbivory/00001094_5457901",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001200_5679041": {
+                "image": "onoclea-sensibilis-herbivory/images/00001200_5679041.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001200_5679041.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001200_5679041.png",
+                "id": "onoclea-sensibilis-herbivory/00001200_5679041",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            }
+        },
+        "tiles": {}
+    },
+    "testing": {
+        "images": {
+            "onoclea-sensibilis-herbivory/00001148_5528532": {
+                "image": "onoclea-sensibilis-herbivory/images/00001148_5528532.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001148_5528532.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001148_5528532.png",
+                "id": "onoclea-sensibilis-herbivory/00001148_5528532",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001020_245831": {
+                "image": "onoclea-sensibilis-herbivory/images/00001020_245831.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001020_245831.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001020_245831.png",
+                "id": "onoclea-sensibilis-herbivory/00001020_245831",
+                "info": {
+                    "height": 5616,
+                    "width": 3744
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001043_3872794": {
+                "image": "onoclea-sensibilis-herbivory/images/00001043_3872794.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001043_3872794.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001043_3872794.png",
+                "id": "onoclea-sensibilis-herbivory/00001043_3872794",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001049_3872819": {
+                "image": "onoclea-sensibilis-herbivory/images/00001049_3872819.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001049_3872819.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001049_3872819.png",
+                "id": "onoclea-sensibilis-herbivory/00001049_3872819",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001040_3872774": {
+                "image": "onoclea-sensibilis-herbivory/images/00001040_3872774.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001040_3872774.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001040_3872774.png",
+                "id": "onoclea-sensibilis-herbivory/00001040_3872774",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001239_5721543": {
+                "image": "onoclea-sensibilis-herbivory/images/00001239_5721543.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001239_5721543.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001239_5721543.png",
+                "id": "onoclea-sensibilis-herbivory/00001239_5721543",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001185_5679025": {
+                "image": "onoclea-sensibilis-herbivory/images/00001185_5679025.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001185_5679025.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001185_5679025.png",
+                "id": "onoclea-sensibilis-herbivory/00001185_5679025",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001102_5457913": {
+                "image": "onoclea-sensibilis-herbivory/images/00001102_5457913.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001102_5457913.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001102_5457913.png",
+                "id": "onoclea-sensibilis-herbivory/00001102_5457913",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001052_3872866": {
+                "image": "onoclea-sensibilis-herbivory/images/00001052_3872866.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001052_3872866.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001052_3872866.png",
+                "id": "onoclea-sensibilis-herbivory/00001052_3872866",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001055_4163116": {
+                "image": "onoclea-sensibilis-herbivory/images/00001055_4163116.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001055_4163116.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001055_4163116.png",
+                "id": "onoclea-sensibilis-herbivory/00001055_4163116",
+                "info": {
+                    "height": 3835,
+                    "width": 3270
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001150_5528534": {
+                "image": "onoclea-sensibilis-herbivory/images/00001150_5528534.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001150_5528534.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001150_5528534.png",
+                "id": "onoclea-sensibilis-herbivory/00001150_5528534",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001023_3872764": {
+                "image": "onoclea-sensibilis-herbivory/images/00001023_3872764.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001023_3872764.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001023_3872764.png",
+                "id": "onoclea-sensibilis-herbivory/00001023_3872764",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001082_5457884": {
+                "image": "onoclea-sensibilis-herbivory/images/00001082_5457884.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001082_5457884.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001082_5457884.png",
+                "id": "onoclea-sensibilis-herbivory/00001082_5457884",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001182_5679022": {
+                "image": "onoclea-sensibilis-herbivory/images/00001182_5679022.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001182_5679022.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001182_5679022.png",
+                "id": "onoclea-sensibilis-herbivory/00001182_5679022",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001146_5528530": {
+                "image": "onoclea-sensibilis-herbivory/images/00001146_5528530.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001146_5528530.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001146_5528530.png",
+                "id": "onoclea-sensibilis-herbivory/00001146_5528530",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001188_5679028": {
+                "image": "onoclea-sensibilis-herbivory/images/00001188_5679028.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001188_5679028.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001188_5679028.png",
+                "id": "onoclea-sensibilis-herbivory/00001188_5679028",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001097_5457905": {
+                "image": "onoclea-sensibilis-herbivory/images/00001097_5457905.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001097_5457905.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001097_5457905.png",
+                "id": "onoclea-sensibilis-herbivory/00001097_5457905",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001208_5703134": {
+                "image": "onoclea-sensibilis-herbivory/images/00001208_5703134.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001208_5703134.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001208_5703134.png",
+                "id": "onoclea-sensibilis-herbivory/00001208_5703134",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001073_5457872": {
+                "image": "onoclea-sensibilis-herbivory/images/00001073_5457872.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001073_5457872.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001073_5457872.png",
+                "id": "onoclea-sensibilis-herbivory/00001073_5457872",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001084_5457886": {
+                "image": "onoclea-sensibilis-herbivory/images/00001084_5457886.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001084_5457886.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001084_5457886.png",
+                "id": "onoclea-sensibilis-herbivory/00001084_5457886",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001088_5457892": {
+                "image": "onoclea-sensibilis-herbivory/images/00001088_5457892.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001088_5457892.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001088_5457892.png",
+                "id": "onoclea-sensibilis-herbivory/00001088_5457892",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001080_5457881": {
+                "image": "onoclea-sensibilis-herbivory/images/00001080_5457881.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001080_5457881.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001080_5457881.png",
+                "id": "onoclea-sensibilis-herbivory/00001080_5457881",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001048_3872817": {
+                "image": "onoclea-sensibilis-herbivory/images/00001048_3872817.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001048_3872817.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001048_3872817.png",
+                "id": "onoclea-sensibilis-herbivory/00001048_3872817",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001095_5457903": {
+                "image": "onoclea-sensibilis-herbivory/images/00001095_5457903.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001095_5457903.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001095_5457903.png",
+                "id": "onoclea-sensibilis-herbivory/00001095_5457903",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001051_3872827": {
+                "image": "onoclea-sensibilis-herbivory/images/00001051_3872827.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001051_3872827.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001051_3872827.png",
+                "id": "onoclea-sensibilis-herbivory/00001051_3872827",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001202_5685827": {
+                "image": "onoclea-sensibilis-herbivory/images/00001202_5685827.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001202_5685827.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001202_5685827.png",
+                "id": "onoclea-sensibilis-herbivory/00001202_5685827",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001198_5679038": {
+                "image": "onoclea-sensibilis-herbivory/images/00001198_5679038.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001198_5679038.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001198_5679038.png",
+                "id": "onoclea-sensibilis-herbivory/00001198_5679038",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001093_5457899": {
+                "image": "onoclea-sensibilis-herbivory/images/00001093_5457899.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001093_5457899.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001093_5457899.png",
+                "id": "onoclea-sensibilis-herbivory/00001093_5457899",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001238_5714751": {
+                "image": "onoclea-sensibilis-herbivory/images/00001238_5714751.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001238_5714751.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001238_5714751.png",
+                "id": "onoclea-sensibilis-herbivory/00001238_5714751",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001067_5457849": {
+                "image": "onoclea-sensibilis-herbivory/images/00001067_5457849.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001067_5457849.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001067_5457849.png",
+                "id": "onoclea-sensibilis-herbivory/00001067_5457849",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001152_5528536": {
+                "image": "onoclea-sensibilis-herbivory/images/00001152_5528536.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001152_5528536.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001152_5528536.png",
+                "id": "onoclea-sensibilis-herbivory/00001152_5528536",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001071_5457870": {
+                "image": "onoclea-sensibilis-herbivory/images/00001071_5457870.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001071_5457870.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001071_5457870.png",
+                "id": "onoclea-sensibilis-herbivory/00001071_5457870",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001241_5727280": {
+                "image": "onoclea-sensibilis-herbivory/images/00001241_5727280.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001241_5727280.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001241_5727280.png",
+                "id": "onoclea-sensibilis-herbivory/00001241_5727280",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001099_5457907": {
+                "image": "onoclea-sensibilis-herbivory/images/00001099_5457907.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001099_5457907.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001099_5457907.png",
+                "id": "onoclea-sensibilis-herbivory/00001099_5457907",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001059_4536341": {
+                "image": "onoclea-sensibilis-herbivory/images/00001059_4536341.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001059_4536341.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001059_4536341.png",
+                "id": "onoclea-sensibilis-herbivory/00001059_4536341",
+                "info": {
+                    "height": 5616,
+                    "width": 3744
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001110_5457924": {
+                "image": "onoclea-sensibilis-herbivory/images/00001110_5457924.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001110_5457924.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001110_5457924.png",
+                "id": "onoclea-sensibilis-herbivory/00001110_5457924",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001046_3872806": {
+                "image": "onoclea-sensibilis-herbivory/images/00001046_3872806.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001046_3872806.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001046_3872806.png",
+                "id": "onoclea-sensibilis-herbivory/00001046_3872806",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001113_5457927": {
+                "image": "onoclea-sensibilis-herbivory/images/00001113_5457927.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001113_5457927.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001113_5457927.png",
+                "id": "onoclea-sensibilis-herbivory/00001113_5457927",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001069_5457852": {
+                "image": "onoclea-sensibilis-herbivory/images/00001069_5457852.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001069_5457852.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001069_5457852.png",
+                "id": "onoclea-sensibilis-herbivory/00001069_5457852",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001181_5679020": {
+                "image": "onoclea-sensibilis-herbivory/images/00001181_5679020.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001181_5679020.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001181_5679020.png",
+                "id": "onoclea-sensibilis-herbivory/00001181_5679020",
+                "info": {
+                    "height": 4274,
+                    "width": 3606
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001096_5457904": {
+                "image": "onoclea-sensibilis-herbivory/images/00001096_5457904.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001096_5457904.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001096_5457904.png",
+                "id": "onoclea-sensibilis-herbivory/00001096_5457904",
+                "info": {
+                    "height": 6000,
+                    "width": 4000
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001149_5528533": {
+                "image": "onoclea-sensibilis-herbivory/images/00001149_5528533.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001149_5528533.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001149_5528533.png",
+                "id": "onoclea-sensibilis-herbivory/00001149_5528533",
+                "info": {
+                    "height": 4485,
+                    "width": 3097
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001021_506366": {
+                "image": "onoclea-sensibilis-herbivory/images/00001021_506366.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001021_506366.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001021_506366.png",
+                "id": "onoclea-sensibilis-herbivory/00001021_506366",
+                "info": {
+                    "height": 5616,
+                    "width": 3744
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001058_4319621": {
+                "image": "onoclea-sensibilis-herbivory/images/00001058_4319621.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001058_4319621.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001058_4319621.png",
+                "id": "onoclea-sensibilis-herbivory/00001058_4319621",
+                "info": {
+                    "height": 1080,
+                    "width": 1920
+                }
+            },
+            "onoclea-sensibilis-herbivory/00001053_3872868": {
+                "image": "onoclea-sensibilis-herbivory/images/00001053_3872868.jpeg",
+                "label": "onoclea-sensibilis-herbivory/releases/1.0/other_formats/semantic-mask/masks/00001053_3872868.png",
+                "leaf_mask": "onoclea-sensibilis-herbivory/images_clean_leaf_mask/00001053_3872868.png",
+                "id": "onoclea-sensibilis-herbivory/00001053_3872868",
+                "info": {
+                    "height": 7360,
+                    "width": 4912
+                }
+            }
+        },
+        "tiles": {}
+    }
+}

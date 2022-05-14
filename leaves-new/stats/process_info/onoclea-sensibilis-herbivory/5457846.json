@@ -1,0 +1,56 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/5457846",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 1311,
+                "r_stop": 5592,
+                "c_start": 596,
+                "c_stop": 3963
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 197,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3472,
+                "r_stop": 4281,
+                "c_start": 1630,
+                "c_stop": 2282
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3267,
+                "r_stop": 4281,
+                "c_start": 2608,
+                "c_stop": 3367
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 106,
+                "r_stop": 1970,
+                "c_start": 0,
+                "c_stop": 191
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 7,
+                "r_stop": 1467,
+                "c_start": 652,
+                "c_stop": 878
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "img_id": "quercus-lobata/00000256_1406283",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 101,
+                "r_stop": 3333,
+                "c_start": 70,
+                "c_stop": 3768
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 204,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 502,
+                "c_start": 3151,
+                "c_stop": 3698
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1680,
+                "r_stop": 3146,
+                "c_start": 0,
+                "c_stop": 1032
+            }
+        }
+    }
+}

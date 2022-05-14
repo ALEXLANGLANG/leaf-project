@@ -1,0 +1,83 @@
+{
+    "img_id": "quercus-bicolor-herbivory/981354",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 184,
+                "r_stop": 3694,
+                "c_start": 351,
+                "c_stop": 3913
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 132,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1440,
+                "c_start": 3412,
+                "c_stop": 3562
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1394,
+                "r_stop": 1682,
+                "c_start": 3492,
+                "c_stop": 3562
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2651,
+                "r_stop": 3510,
+                "c_start": 3510,
+                "c_stop": 3562
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2599,
+                "r_stop": 2703,
+                "c_start": 3504,
+                "c_stop": 3562
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2876,
+                "r_stop": 3510,
+                "c_start": 605,
+                "c_stop": 1377
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2593,
+                "r_stop": 3510,
+                "c_start": 0,
+                "c_stop": 155
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3187,
+                "r_stop": 3481,
+                "c_start": 0,
+                "c_stop": 270
+            }
+        }
+    }
+}

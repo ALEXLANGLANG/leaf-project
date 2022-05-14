@@ -1,0 +1,156 @@
+{
+    "img_id": "quercus-bicolor-herbivory/00000673_1468138",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 80,
+                "r_stop": 5209,
+                "c_start": 0,
+                "c_stop": 3709
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 126,
+                "object size": 3000,
+                "outline_width": 39
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 474,
+                "c_start": 2491,
+                "c_stop": 3709
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 431,
+                "r_stop": 2215,
+                "c_start": 3585,
+                "c_stop": 3709
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 982,
+                "r_stop": 1379,
+                "c_start": 3396,
+                "c_stop": 3709
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2137,
+                "r_stop": 5129,
+                "c_start": 3603,
+                "c_stop": 3709
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3741,
+                "r_stop": 5129,
+                "c_start": 2629,
+                "c_stop": 3709
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4594,
+                "r_stop": 5129,
+                "c_start": 1706,
+                "c_stop": 3370
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3215,
+                "r_stop": 5129,
+                "c_start": 0,
+                "c_stop": 344
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2870,
+                "r_stop": 4206,
+                "c_start": 0,
+                "c_stop": 94
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 60,
+                "r_stop": 827,
+                "c_start": 0,
+                "c_stop": 94
+            }
+        },
+        "11": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1405,
+                "r_stop": 1413,
+                "c_start": 68,
+                "c_stop": 68
+            }
+        },
+        "12": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 275,
+                "c_start": 0,
+                "c_stop": 146
+            }
+        },
+        "13": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1706,
+                "r_stop": 2103,
+                "c_start": 0,
+                "c_stop": 103
+            }
+        },
+        "14": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1318,
+                "r_stop": 1792,
+                "c_start": 0,
+                "c_stop": 94
+            }
+        },
+        "15": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1905,
+                "r_stop": 2698,
+                "c_start": 0,
+                "c_stop": 103
+            }
+        },
+        "16": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2603,
+                "r_stop": 2844,
+                "c_start": 0,
+                "c_stop": 43
+            }
+        }
+    }
+}

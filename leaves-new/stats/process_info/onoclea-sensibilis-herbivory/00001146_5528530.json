@@ -1,0 +1,210 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/00001146_5528530",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 21,
+                "r_stop": 3099,
+                "c_start": 42,
+                "c_stop": 2942
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 150,
+                "object size": 3000,
+                "outline_width": 22
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 83,
+                "c_start": 2234,
+                "c_stop": 2900
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 29,
+                "c_start": 499,
+                "c_stop": 789
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 44,
+                "c_start": 0,
+                "c_stop": 387
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1186,
+                "r_stop": 2333,
+                "c_start": 0,
+                "c_stop": 446
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2195,
+                "r_stop": 2862,
+                "c_start": 161,
+                "c_stop": 411
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2867,
+                "r_stop": 3078,
+                "c_start": 504,
+                "c_stop": 779
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2881,
+                "r_stop": 3078,
+                "c_start": 308,
+                "c_stop": 602
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3028,
+                "r_stop": 3073,
+                "c_start": 725,
+                "c_stop": 774
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1205,
+                "r_stop": 2342,
+                "c_start": 2401,
+                "c_stop": 2769
+            }
+        },
+        "11": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1583,
+                "r_stop": 2440,
+                "c_start": 2083,
+                "c_stop": 2460
+            }
+        },
+        "12": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1960,
+                "r_stop": 2426,
+                "c_start": 2004,
+                "c_stop": 2102
+            }
+        },
+        "13": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2092,
+                "r_stop": 2421,
+                "c_start": 1921,
+                "c_stop": 2019
+            }
+        },
+        "14": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2377,
+                "r_stop": 3078,
+                "c_start": 1960,
+                "c_stop": 2239
+            }
+        },
+        "15": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2382,
+                "r_stop": 3078,
+                "c_start": 1607,
+                "c_stop": 2038
+            }
+        },
+        "16": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2279,
+                "r_stop": 2489,
+                "c_start": 1798,
+                "c_stop": 1994
+            }
+        },
+        "17": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2234,
+                "r_stop": 2298,
+                "c_start": 1882,
+                "c_stop": 1955
+            }
+        },
+        "18": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2563,
+                "r_stop": 2700,
+                "c_start": 1563,
+                "c_stop": 1646
+            }
+        },
+        "19": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2685,
+                "r_stop": 2754,
+                "c_start": 1514,
+                "c_stop": 1563
+            }
+        },
+        "20": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2333,
+                "r_stop": 2337,
+                "c_start": 1940,
+                "c_stop": 1940
+            }
+        },
+        "21": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2087,
+                "r_stop": 2097,
+                "c_start": 1877,
+                "c_stop": 1882
+            }
+        },
+        "22": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2083,
+                "r_stop": 2367,
+                "c_start": 1877,
+                "c_stop": 1955
+            }
+        }
+    }
+}

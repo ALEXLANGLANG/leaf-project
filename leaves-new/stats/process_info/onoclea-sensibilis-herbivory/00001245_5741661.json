@@ -1,0 +1,83 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/00001245_5741661",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 183,
+                "r_stop": 2865,
+                "c_start": 70,
+                "c_stop": 2632
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 161,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 155,
+                "c_start": 0,
+                "c_stop": 785
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 142,
+                "r_stop": 679,
+                "c_start": 195,
+                "c_stop": 692
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 634,
+                "r_stop": 1127,
+                "c_start": 306,
+                "c_stop": 643
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 905,
+                "r_stop": 1065,
+                "c_start": 572,
+                "c_stop": 666
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1283,
+                "c_start": 2380,
+                "c_stop": 2562
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2104,
+                "r_stop": 2682,
+                "c_start": 0,
+                "c_stop": 519
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2220,
+                "r_stop": 2682,
+                "c_start": 0,
+                "c_stop": 692
+            }
+        }
+    }
+}

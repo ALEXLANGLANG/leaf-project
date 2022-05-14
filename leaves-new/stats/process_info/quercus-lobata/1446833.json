@@ -1,0 +1,165 @@
+{
+    "img_id": "quercus-lobata/1446833",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 0,
+                "r_stop": 4922,
+                "c_start": 251,
+                "c_stop": 4000
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 223,
+                "object size": 3000,
+                "outline_width": 30
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3900,
+                "r_stop": 4922,
+                "c_start": 2300,
+                "c_stop": 3749
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4714,
+                "r_stop": 4922,
+                "c_start": 1435,
+                "c_stop": 2250
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4679,
+                "r_stop": 4922,
+                "c_start": 1471,
+                "c_stop": 1900
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4807,
+                "r_stop": 4922,
+                "c_start": 1350,
+                "c_stop": 1500
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4793,
+                "r_stop": 4864,
+                "c_start": 1393,
+                "c_stop": 1428
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3986,
+                "r_stop": 4900,
+                "c_start": 0,
+                "c_stop": 207
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1264,
+                "r_stop": 4071,
+                "c_start": 0,
+                "c_stop": 128
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 2421,
+                "c_start": 0,
+                "c_stop": 192
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2300,
+                "r_stop": 3171,
+                "c_start": 0,
+                "c_stop": 128
+            }
+        },
+        "11": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2257,
+                "r_stop": 3086,
+                "c_start": 0,
+                "c_stop": 250
+            }
+        },
+        "12": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3007,
+                "r_stop": 3236,
+                "c_start": 0,
+                "c_stop": 150
+            }
+        },
+        "13": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3021,
+                "r_stop": 3186,
+                "c_start": 28,
+                "c_stop": 192
+            }
+        },
+        "14": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3057,
+                "r_stop": 4307,
+                "c_start": 0,
+                "c_stop": 150
+            }
+        },
+        "15": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3528,
+                "r_stop": 3814,
+                "c_start": 0,
+                "c_stop": 192
+            }
+        },
+        "16": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4686,
+                "r_stop": 4729,
+                "c_start": 1421,
+                "c_stop": 1428
+            }
+        },
+        "17": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4750,
+                "r_stop": 4871,
+                "c_start": 1378,
+                "c_stop": 1557
+            }
+        }
+    }
+}

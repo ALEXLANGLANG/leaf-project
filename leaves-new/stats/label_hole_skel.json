@@ -1,0 +1,152 @@
+{
+    "quercus-bicolor-herbivory": {
+        "0": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "1": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "2": {
+            "label": "hole",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        },
+        "3": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "4": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "5": {
+            "label": "skel",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        }
+    },
+    "onoclea-sensibilis-herbivory": {
+        "0": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "1": {
+            "label": "hole",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        },
+        "2": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "3": {
+            "label": "skel",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        }
+    },
+    "quercus-lobata": {
+        "0": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "1": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "2": {
+            "label": "hole",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        },
+        "3": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "4": {
+            "label": "__background__",
+            "number": 0,
+            "color": [
+                0,
+                0,
+                0
+            ]
+        },
+        "5": {
+            "label": "skel",
+            "number": 1,
+            "color": [
+                255,
+                255,
+                255
+            ]
+        }
+    }
+}

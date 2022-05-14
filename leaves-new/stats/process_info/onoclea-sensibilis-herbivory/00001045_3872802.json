@@ -1,0 +1,137 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/00001045_3872802",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 450,
+                "r_stop": 6153,
+                "c_start": 389,
+                "c_stop": 4532
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 158,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2407,
+                "r_stop": 3351,
+                "c_start": 2719,
+                "c_stop": 4143
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1548,
+                "r_stop": 2539,
+                "c_start": 3229,
+                "c_stop": 3739
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1897,
+                "r_stop": 2539,
+                "c_start": 1359,
+                "c_stop": 2351
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2218,
+                "r_stop": 2643,
+                "c_start": 2294,
+                "c_stop": 2473
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2398,
+                "r_stop": 2719,
+                "c_start": 2436,
+                "c_stop": 2700
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2369,
+                "r_stop": 2549,
+                "c_start": 2407,
+                "c_stop": 2700
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3333,
+                "r_stop": 3880,
+                "c_start": 3144,
+                "c_stop": 3701
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4938,
+                "r_stop": 5703,
+                "c_start": 2596,
+                "c_stop": 3625
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 604,
+                "c_start": 0,
+                "c_stop": 377
+            }
+        },
+        "11": {
+            "crop": {
+                "type": "remove",
+                "r_start": 160,
+                "r_stop": 406,
+                "c_start": 226,
+                "c_stop": 424
+            }
+        },
+        "12": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 283,
+                "c_start": 859,
+                "c_stop": 1690
+            }
+        },
+        "13": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 113,
+                "c_start": 1312,
+                "c_stop": 1793
+            }
+        },
+        "14": {
+            "crop": {
+                "type": "remove",
+                "r_start": 103,
+                "r_stop": 670,
+                "c_start": 0,
+                "c_stop": 349
+            }
+        }
+    }
+}

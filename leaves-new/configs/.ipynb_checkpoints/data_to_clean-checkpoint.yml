@@ -1,0 +1,41 @@
+# This script is a configuration file to clean the dataset
+# It contains two parts where part 1 is about the dataset to be processed and part 2 is about how to process the each image. 
+# It will process the dataset given in part 1, and generate a new directories containing processed data.
+
+
+# PART 1
+# The strucuture of directories of the dataset to be processed.
+
+# root: the root directory of the whole dataset
+# dirs: a list of species (directory name) in the dataset [quercus-bicolor-herbivory, onoclea-sensibilis-herbivory,  quercus-lobata]
+# subdirs:
+#     image: paths of all images
+#     label: paths of all labels
+# subdir_labelmap: path of class_mapping file
+
+images:
+  root: '/usr/xtmp/xs75/leaves/datasets_updated/leaves' #'/usr/xtmp/xs75/leaves/datasets/leaves'
+  dirs: [quercus-bicolor-herbivory] #onoclea-sensibilis-herbivory,  quercus-lobata 
+  subdirs:
+    image: 'images/*.*'
+    label: 'releases/3.0-qb-corrected-test-val/other_formats/semantic_mask/masks/*.png' #3.0-qb-corrected-test-val
+  subdir_labelmap: 'releases/3.0-qb-corrected-test-val/other_formats/semantic_mask/class_mapping.csv' # 3.0-qb-corrected-test-val
+
+
+
+# PART 2
+# It will follow the processing steps given in paths below. 
+
+# suffix: the suffix of new generated directories of clean images and clean labels.   e.g. root/dirs/image_suffix and root/dirs/label_suffix
+# clean_info_file: a json file containing all processing steps. if this file does not exist, it will generate one based on paths below. 
+# paths: process info for the whole dataset, which is generated manually by leaf-image-editor 
+# overwrite: if overwrite the existing clean_info_file
+clean:
+  suffix: '_clean' 
+  clean_info_file: '../../stats/clean_info_new_ids.json' 
+  paths: '../../stats/process_info/*/*.json'
+  overwrite: True 
+
+
+deleted_id: ['quercus-bicolor-herbivory/4287841', 'quercus-bicolor-herbivory/4287975', 'quercus-bicolor-herbivory/706298']
+

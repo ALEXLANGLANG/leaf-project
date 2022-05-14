@@ -1,0 +1,84 @@
+{
+    "img_id": "quercus-lobata/00000043_312572",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 1293,
+                "r_stop": 5248,
+                "c_start": 32,
+                "c_stop": 3648
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 187,
+                "object size": 3000,
+                "outline_width": 30
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 39,
+                "r_stop": 3955,
+                "c_start": 3527,
+                "c_stop": 3616
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2301,
+                "r_stop": 3955,
+                "c_start": 1313,
+                "c_stop": 3616
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1384,
+                "r_stop": 3907,
+                "c_start": 0,
+                "c_stop": 110
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1431,
+                "c_start": 39,
+                "c_stop": 63
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1392,
+                "c_start": 23,
+                "c_stop": 71
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3456,
+                "r_stop": 3955,
+                "c_start": 0,
+                "c_stop": 118
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 134,
+                "c_start": 3417,
+                "c_stop": 3616
+            }
+        }
+    }
+}

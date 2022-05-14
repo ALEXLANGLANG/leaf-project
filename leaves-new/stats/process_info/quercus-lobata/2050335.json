@@ -1,0 +1,20 @@
+{
+    "img_id": "quercus-lobata/2050335",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 2081,
+                "r_stop": 4152,
+                "c_start": 697,
+                "c_stop": 3364
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 160,
+                "object size": 4000
+            }
+        }
+    }
+}

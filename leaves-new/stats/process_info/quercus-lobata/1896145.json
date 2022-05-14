@@ -1,0 +1,128 @@
+{
+    "img_id": "quercus-lobata/1896145",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 682,
+                "r_stop": 4932,
+                "c_start": 619,
+                "c_stop": 3540
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 196,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1332,
+                "r_stop": 3349,
+                "c_start": 0,
+                "c_stop": 1242
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3210,
+                "r_stop": 4250,
+                "c_start": 0,
+                "c_stop": 474
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3670,
+                "r_stop": 4222,
+                "c_start": 244,
+                "c_stop": 523
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 348,
+                "r_stop": 1633,
+                "c_start": 2226,
+                "c_stop": 2921
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1060,
+                "r_stop": 1305,
+                "c_start": 2044,
+                "c_stop": 2358
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1542,
+                "r_stop": 2093,
+                "c_start": 2295,
+                "c_stop": 2610
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2351,
+                "r_stop": 4250,
+                "c_start": 1598,
+                "c_stop": 2072
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 753,
+                "c_start": 2421,
+                "c_stop": 2921
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1995,
+                "r_stop": 3698,
+                "c_start": 970,
+                "c_stop": 1500
+            }
+        },
+        "11": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3545,
+                "r_stop": 4250,
+                "c_start": 1158,
+                "c_stop": 1535
+            }
+        },
+        "12": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2958,
+                "r_stop": 3754,
+                "c_start": 2037,
+                "c_stop": 2644
+            }
+        },
+        "13": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2917,
+                "r_stop": 3070,
+                "c_start": 2400,
+                "c_stop": 2589
+            }
+        }
+    }
+}

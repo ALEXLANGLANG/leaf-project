@@ -1,0 +1,38 @@
+{
+    "img_id": "quercus-lobata/202081",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 1192,
+                "r_stop": 5007,
+                "c_start": 342,
+                "c_stop": 2893
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 157,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3145,
+                "r_stop": 3815,
+                "c_start": 732,
+                "c_stop": 1244
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1995,
+                "r_stop": 2671,
+                "c_start": 2096,
+                "c_stop": 2551
+            }
+        }
+    }
+}

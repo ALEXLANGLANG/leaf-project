@@ -1,0 +1,83 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/5457849",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 536,
+                "r_stop": 3337,
+                "c_start": 377,
+                "c_stop": 4000
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 216,
+                "object size": 4000
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 13,
+                "r_stop": 2801,
+                "c_start": 3575,
+                "c_stop": 3623
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 287,
+                "c_start": 0,
+                "c_stop": 561
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 222,
+                "r_stop": 602,
+                "c_start": 0,
+                "c_stop": 491
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1720,
+                "r_stop": 2801,
+                "c_start": 0,
+                "c_stop": 208
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2536,
+                "r_stop": 2801,
+                "c_start": 0,
+                "c_stop": 449
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1956,
+                "r_stop": 2801,
+                "c_start": 2481,
+                "c_stop": 2791
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2369,
+                "r_stop": 2801,
+                "c_start": 2216,
+                "c_stop": 2680
+            }
+        }
+    }
+}

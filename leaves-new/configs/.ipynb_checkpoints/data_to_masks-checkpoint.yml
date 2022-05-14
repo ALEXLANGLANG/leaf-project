@@ -1,0 +1,22 @@
+images:
+  root: '/usr/xtmp/xs75/leaves/datasets_updated/leaves' #'/usr/xtmp/xs75/leaves/datasets/leaves'
+  dirs: [quercus-bicolor-herbivory] #onoclea-sensibilis-herbivory,  quercus-lobata
+  subdirs:
+    image: 'images_clean/*.*'
+    label: 'releases/1.0/other_formats/semantic_mask/masks_clean/*.png' #3.0-qb-corrected-test-val
+  subdir_labelmap: 'releases/1.0/other_formats/semantic_mask/class_mapping.csv' #3.0-qb-corrected-test-val
+
+# Only consider leaf_mask for now
+masks:
+  type: 'leaf_mask' # edge_mask leaf_mask  (interior_mask is deleted)
+  suffix: '_leaf_mask' # a new gene
+  overwrite: False
+  leaf_mask: # mask for the whole leaf
+    threshold_ostu: 250
+    threshold_closed_object_size: 1000000
+  edge_mask: # mask for the edge of leaf, containing foreground (leaf) and background (bg)
+    width_leaf: 75
+    width_bg: 5
+#   interior_mask: # mask for the interior of leaf.  leaf_mask = interior_leaf_mask + edge_leaf_mask
+#     leaf_mask_suffix: '_leaf_mask'
+#     edge_mask_suffix: '_edge15_bg5_mask'

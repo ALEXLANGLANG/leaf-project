@@ -1,0 +1,102 @@
+{
+    "img_id": "quercus-lobata/1652629",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 471,
+                "r_stop": 3088,
+                "c_start": 388,
+                "c_stop": 3798
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 151,
+                "object size": 3000,
+                "outline_width": 50
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1567,
+                "r_stop": 2617,
+                "c_start": 2359,
+                "c_stop": 3228
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1302,
+                "r_stop": 1783,
+                "c_start": 2148,
+                "c_stop": 2451
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 753,
+                "r_stop": 1360,
+                "c_start": 1698,
+                "c_stop": 2198
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 1329,
+                "r_stop": 1410,
+                "c_start": 2128,
+                "c_stop": 2225
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 368,
+                "r_stop": 864,
+                "c_start": 1583,
+                "c_stop": 1913
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 342,
+                "r_stop": 1026,
+                "c_start": 1456,
+                "c_stop": 2117
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 876,
+                "r_stop": 1383,
+                "c_start": 1033,
+                "c_stop": 1806
+            }
+        },
+        "9": {
+            "crop": {
+                "type": "remove",
+                "r_start": 772,
+                "r_stop": 1029,
+                "c_start": 1225,
+                "c_stop": 1460
+            }
+        },
+        "10": {
+            "crop": {
+                "type": "remove",
+                "r_start": 595,
+                "r_stop": 1060,
+                "c_start": 2624,
+                "c_stop": 3093
+            }
+        }
+    }
+}

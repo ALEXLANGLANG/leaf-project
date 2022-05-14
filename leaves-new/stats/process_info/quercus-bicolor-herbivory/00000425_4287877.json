@@ -1,0 +1,83 @@
+{
+    "img_id": "quercus-bicolor-herbivory/00000425_4287877",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 330,
+                "r_stop": 3979,
+                "c_start": 63,
+                "c_stop": 3557
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 197,
+                "object size": 1009
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 374,
+                "c_start": 0,
+                "c_stop": 612
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 266,
+                "r_stop": 407,
+                "c_start": 0,
+                "c_stop": 542
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 350,
+                "r_stop": 444,
+                "c_start": 51,
+                "c_stop": 552
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2713,
+                "r_stop": 3326,
+                "c_start": 1450,
+                "c_stop": 2226
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2254,
+                "r_stop": 2760,
+                "c_start": 1637,
+                "c_stop": 2250
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2965,
+                "r_stop": 3368,
+                "c_start": 832,
+                "c_stop": 1525
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2198,
+                "r_stop": 2484,
+                "c_start": 1323,
+                "c_stop": 1660
+            }
+        }
+    }
+}

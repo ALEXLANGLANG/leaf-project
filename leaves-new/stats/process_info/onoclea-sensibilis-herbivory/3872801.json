@@ -1,0 +1,20 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/3872801",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 1096,
+                "r_stop": 4557,
+                "c_start": 2290,
+                "c_stop": 4740
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 165,
+                "object size": 4000
+            }
+        }
+    }
+}

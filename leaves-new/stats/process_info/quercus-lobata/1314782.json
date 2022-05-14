@@ -1,0 +1,84 @@
+{
+    "img_id": "quercus-lobata/1314782",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 71,
+                "r_stop": 5624,
+                "c_start": 107,
+                "c_stop": 3845
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 214,
+                "object size": 3000,
+                "outline_width": 6
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 5259,
+                "r_stop": 5381,
+                "c_start": 3351,
+                "c_stop": 3563
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 5292,
+                "r_stop": 5553,
+                "c_start": 1704,
+                "c_stop": 3628
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 5471,
+                "r_stop": 5553,
+                "c_start": 1581,
+                "c_stop": 1777
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 4974,
+                "r_stop": 5553,
+                "c_start": 2617,
+                "c_stop": 3738
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 5430,
+                "r_stop": 5553,
+                "c_start": 0,
+                "c_stop": 1019
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 1174,
+                "c_start": 0,
+                "c_stop": 1002
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2935,
+                "r_stop": 4150,
+                "c_start": 2438,
+                "c_stop": 3738
+            }
+        }
+    }
+}

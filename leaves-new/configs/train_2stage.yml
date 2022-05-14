@@ -1,0 +1,65 @@
+data:
+  root: ['/usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4']
+  partition_file: ['../../stats/partition_clean_tileW512H512M4_stage.json']
+  label_file: '../../stats/label_file_common_binary.json'
+  label_ratio: 0.0001  # keep tile with label_ratio > given value
+  leaf_mask_ratio: 0.0001 #0.0001  # keep tile with leaf_mask_ratio > given value
+
+resume: null #/usr/xtmp/xs75/leaves/exps/s2_al0.8b1ta2_20211202_192602 # the path of experiment to be resumed 
+save_root: '/usr/xtmp/xs75/leaves/exps' # directory of where you want to save the logs, etc.
+evaluate:
+    phase: 'validation'  #validation or testing, it will only do evaluation on given set.
+
+training:
+  trainer:
+    name: 'binaryLeaf'
+  model:
+    name: 'Pretrained_Unet11' #Unet, Pretrained_Unet11,Pretrained_Unet16
+    load_from: null #/usr/xtmp/xs75/leaves/exps/relu_a001_b11_beta2_2021-10-27+13-36-08/weights/_epoch100.pth #/usr/xtmp/xs75/leaves/experiments/Pre_Unet11_A09_aug_2021-10-14+19-21-36/weights/_epoch240.pth #should be a single model (old way to resume) 
+    n_channels: 3
+    n_classes: 1
+    bilinear: False
+  hardware:
+    workers: 8
+    num_gpu: 1
+  size:
+    i_epoch: 0
+    epoch_num: 10
+    batch_size: 6
+    epoch_size: 0 # if 0, set it to len(train_loader)
+    valid_size: 0 # if 0, set it to len(val_loader)
+    val_epoch_size: 1
+  save:
+    save_model_every_epoch: 1 # save model every given number of epochs
+    save_F_beta_score: 2 # beta=1,2,3,4,5....
+  loss:
+    name: 'filter' #focal,filter
+    alpha: 0.99
+    gamma: 2
+    b1: 1
+    beta: 2
+    margin: 0.1 #1
+  optim:
+    name: AdamW  #Adam, #SGD
+    lr: 0.0001
+    momentum: 0.9
+    beta: 0.999 #adam
+    weight_decay: 0
+    bias_decay: 0
+  scheduler:
+    name: 'MultiStepLR' #MultiStepLR,ReduceLROnPlateau,OneCycleLR
+    lr_reduction: 0.5
+    milestones: [100,150,200,250]
+  transform:
+    color_jitter: True
+    rotation90: True
+    flip: True
+    toTensor: True
+  mask:
+    name: 'leaf_mask' #'leaf_mask' #stage1_mask
+
+
+
+
+
+

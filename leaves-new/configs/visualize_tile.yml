@@ -1,0 +1,48 @@
+data:
+  root: ['/usr/xtmp/xs75/leaves/datasets_updated/tiles/tiles_skel_3.0'] #clean_tilesW512H512M4 leaves
+  partition_file: ['../../stats/updated/qb_skel_3.0_test_val_to_train.json'] 
+  label_file: '../../stats/label_skel.json'
+  label_ratio: 0.000001  # keep tile with label_ratio > given value
+  leaf_mask_ratio: 0.000001 #0.0001  # keep tile with leaf_mask_ratio > given value
+  data_type: "tiles" # images tiles
+  
+training:
+    transform:
+        toTensor: True
+    hardware:
+        workers: 2
+        num_gpu: 1
+        
+model:
+    name: 'Pretrained_Unet11' #Unet, 
+    load_from: /usr/xtmp/xs75/leaves/exps/tile_3.0_train_with_testing_validation_20220502_220610/model_ep140_ckpt.pth.tar #model_ep300_ckpt.pth.tar
+#/usr/xtmp/xs75/leaves/exps/relu_a001_b11_beta2_mar0.1_20211210_100258/model_ep1_ckpt.pth.tar #null #/usr/xtmp/xs75/leaves/exps/relu_a001_b11_beta2_2021-10-27+13-36-08/weights/_epoch100.pth # /usr/xtmp/xs75/leaves/exps/relu_a001_b105_beta2_2021/reluA99B05Beta2_2021-10-25+11-44-06/weights/_epoch100.pth
+    n_channels: 3
+    n_classes: 1
+    bilinear: False
+
+evaluate:
+  phase: ['validation']  #training, validation or testing, it will only do evaluation on given set
+  # tile will be saved as species/base_name/tile_id
+  # image will be saved as species/img_id
+  save:
+    log_root: '/usr/xtmp/xs75/leaves/tmp/qb_skel_log'
+    is_activitions: True # save image into .npy (need more space)
+    is_preds: False # save image into .png (less space but only for ints or bool)
+    image:
+      root: /usr/xtmp/xs75/leaves/datasets_updated/acts #/usr/xtmp/xs75/leaves/exps/visualization/z_hist # /usr/xtmp/xs75/leaves/datasets/acts #'/usr/xtmp/xs75/leaves/exps' #/usr/xtmp/xs75/leaves/datasets/acts/ # directory of where you want to save
+      type_name: 'qb_skel_3.0'
+    tile:
+      root: null #/usr/xtmp/xs75/leaves/datasets/acts/
+      #/usr/xtmp/xs75/leaves/datasets/acts #tiles/clean_tilesW512H512M4_new
+      type_name: null #'e1_s1r95p05_mask'
+  single_target_img_id: null # if null, run on all data
+  mask:
+    name: 'leaf_mask'
+    
+
+
+
+
+
+

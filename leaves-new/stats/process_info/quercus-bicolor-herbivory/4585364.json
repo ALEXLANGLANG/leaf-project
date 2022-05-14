@@ -1,0 +1,84 @@
+{
+    "img_id": "quercus-bicolor-herbivory/4585364",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 36,
+                "r_stop": 3947,
+                "c_start": 6,
+                "c_stop": 2913
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 164,
+                "object size": 3000,
+                "outline_width": 1
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 16,
+                "r_stop": 442,
+                "c_start": 763,
+                "c_stop": 1499
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2998,
+                "r_stop": 3811,
+                "c_start": 1106,
+                "c_stop": 1598
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2738,
+                "r_stop": 3319,
+                "c_start": 1410,
+                "c_stop": 1797
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2865,
+                "r_stop": 3379,
+                "c_start": 1344,
+                "c_stop": 1692
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2821,
+                "r_stop": 3119,
+                "c_start": 1382,
+                "c_stop": 1631
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 3429,
+                "r_stop": 3911,
+                "c_start": 2157,
+                "c_stop": 2907
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2710,
+                "r_stop": 2848,
+                "c_start": 1692,
+                "c_stop": 1797
+            }
+        }
+    }
+}

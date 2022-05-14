@@ -1,0 +1,79 @@
+data:
+#   root: ['/usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4',
+#   '/usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4_shift',
+#   '/usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4_rot30',
+#   '/usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4_rot30_shift']
+#   partition_file: ['../../stats/partition_clean_tileW512H512M4.json',
+#   '../../stats/partition_clean_tileW512H512M4_shift.json',
+#   '../../stats/partition_clean_tileW512H512M4_rot30.json',
+#   '../../stats/partition_clean_tileW512H512M4_rot30_shift.json'
+#   ]
+  root: ['/usr/xtmp/xs75/leaves/datasets/leaves'] #clean_tilesW512H512M4 leaves
+  partition_file: ['../../stats/partition_qb_margin.json'] 
+  label_file: '../../stats/label_margin.json'
+  label_ratio: 0.000001  # keep tile with label_ratio > given value
+  leaf_mask_ratio: 0.000001 #0.0001  # keep tile with leaf_mask_ratio > given value
+  data_type: "images" # images tiles
+
+resume: null # the path of experiment to be resumed
+save_root: '/usr/xtmp/xs75/leaves/exps' # directory of where you want to save the logs, etc.
+evaluate:
+    phase: 'validation'  #validation or testing, it will only do evaluation on given set.
+
+training:
+  trainer:
+    name: 'binaryLeaf'
+  model:
+    name: 'Pretrained_Unet11' #Unet, Pretrained_Unet11,Pretrained_Unet16
+    load_from: null #/usr/xtmp/xs75/leaves/exps/relu_a001_b11_beta2_2021-10-27+13-36-08/weights/_epoch100.pth #/usr/xtmp/xs75/leaves/experiments/Pre_Unet11_A09_aug_2021-10-14+19-21-36/weights/_epoch240.pth #should be a single model (old way to resume) 
+    n_channels: 3
+    n_classes: 1
+    bilinear: False
+  hardware:
+    workers: 8
+    num_gpu: 1
+  size:
+    i_epoch: 0
+    epoch_num: 300
+    batch_size: 1
+    epoch_size: 0 # if 0, set it to len(train_loader)
+    valid_size: 0 # if 0, set it to len(val_loader)
+    val_epoch_size: 1
+  save:
+    save_model_every_epoch: 10 # save model every given number of epochs
+    save_F_beta_score: 1 # beta=1,2,3,4,5....
+  loss:
+    name: 'focal' #focal,filter
+    alpha: 0.9
+    gamma: 2
+    b1: 0 #0.5
+    beta: 0 #2
+  optim:
+    name: Adam  #Adam, #SGD
+    lr: 0.0001
+    momentum: 0.9
+    beta: 0.999 #adam
+    weight_decay: 0
+    bias_decay: 0
+  scheduler:
+    name: 'MultiStepLR' #MultiStepLR,ReduceLROnPlateau,OneCycleLR
+    lr_reduction: 0.5
+    milestones: [100,150,200,250,300] #[30,45,60,75]
+  transform:
+    color_jitter: True
+    rotation90: True
+    flip: True
+    toTensor: True
+    resize: 
+        m: 1024
+        n: 1024
+        scale:
+            0.25
+  mask:
+    name: 'leaf_mask' # 'leaf_mask' #'leaf_mask' #
+
+
+
+
+
+

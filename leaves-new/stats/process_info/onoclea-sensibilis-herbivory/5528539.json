@@ -1,0 +1,84 @@
+{
+    "img_id": "onoclea-sensibilis-herbivory/5528539",
+    "actions": {
+        "0": {
+            "crop": {
+                "type": "keep",
+                "r_start": 62,
+                "r_stop": 2789,
+                "c_start": 8,
+                "c_stop": 3097
+            }
+        },
+        "1": {
+            "adjust": {
+                "threshold": 164,
+                "object size": 3000,
+                "outline_width": 50
+            }
+        },
+        "2": {
+            "crop": {
+                "type": "remove",
+                "r_start": 894,
+                "r_stop": 1456,
+                "c_start": 2503,
+                "c_stop": 3086
+            }
+        },
+        "3": {
+            "crop": {
+                "type": "remove",
+                "r_start": 0,
+                "r_stop": 948,
+                "c_start": 2868,
+                "c_stop": 3089
+            }
+        },
+        "4": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2208,
+                "r_stop": 2727,
+                "c_start": 2176,
+                "c_stop": 2399
+            }
+        },
+        "5": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2345,
+                "r_stop": 2727,
+                "c_start": 2176,
+                "c_stop": 2279
+            }
+        },
+        "6": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2252,
+                "r_stop": 2727,
+                "c_start": 2034,
+                "c_stop": 2279
+            }
+        },
+        "7": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2497,
+                "r_stop": 2727,
+                "c_start": 1968,
+                "c_stop": 2219
+            }
+        },
+        "8": {
+            "crop": {
+                "type": "remove",
+                "r_start": 2356,
+                "r_stop": 2727,
+                "c_start": 1379,
+                "c_stop": 1548
+            }
+        }
+    }
+}

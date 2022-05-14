@@ -1,0 +1,37 @@
+data:
+  root:
+  - /usr/xtmp/xs75/leaves/datasets/tiles/clean_tilesW512H512M4
+  partition_file:
+  - ../../stats/partition_os_margin.json
+  label_file: ../../stats/label_margin.json
+  label_ratio: -1
+  leaf_mask_ratio: -1
+training:
+  transform:
+    toTensor: true
+  hardware:
+    workers: 2
+    num_gpu: 1
+model:
+  name: Pretrained_Unet11
+  load_from: /usr/xtmp/xs75/leaves/exps/os_margin_20220201_121536/model_ep300_ckpt.pth.tar
+  n_channels: 3
+  n_classes: 1
+  bilinear: false
+evaluate:
+  phase:
+  - validation
+  - testing
+  save:
+    log_root: /usr/xtmp/xs75/leaves/tmp/os_margin_log
+    is_activitions: true
+    is_preds: false
+    image:
+      root: /usr/xtmp/xs75/leaves/datasets/acts
+      type_name: os_margin
+    tile:
+      root: null
+      type_name: null
+  single_target_img_id: null
+  mask:
+    name: leaf_mask
